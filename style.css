@@ -1,0 +1,130 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+#heading {
+    color: white;
+    background-color: black;
+    font-family: cursive;
+    height: 8rem;
+    font-size: 5.3rem;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: -40px;
+    width: 93.95rem;
+}
+.navbar li {
+    list-style: none;
+    padding: 13px;
+}
+
+.nav:hover {
+    background-color: rgba(121, 115, 115, 0.337);
+}
+
+.navbar {
+    background-color:black;
+    height: 45px;
+    border-radius: 10px;
+    /* width: calc(100% - 12rem); */
+    /* margin-left: 12rem; */
+}
+
+.navbar ul {
+    display: flex ;
+    overflow: auto;
+}
+
+.nav a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+
+}
+
+.nav a:hover {
+    font-size: larger;
+}
+
+.hamburger{
+    color: aliceblue;
+    font-size: 1.2em;
+}
+.navbar #search{
+    position: relative;
+    right:-800px
+}
+.wimg{
+    width: 93.95rem;
+    height: 20rem;
+    margin-top: 2px;
+    border: 2px solid black;
+    border-radius: 20px;
+    opacity: 70%;
+    position: relative;
+    z-index: -1;
+}
+.wel{
+    position: absolute;
+    top: 15.625rem;
+    left: 37.5rem;
+    font-size: 6em;
+    font-family: dancing script;
+    font-weight: bolder;
+    text-shadow: 4px 4px whitesmoke;
+}
+.products{
+    font-size: x-large;
+    margin: 5px;
+    background-color: black;
+    color: whitesmoke;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 8px;
+}
+.prow{
+    display: flex;
+}
+.pimg{
+    height: 17.5rem;
+    width: 16.875rem; 
+    padding: 0.94rem;
+    margin: 0px 1.875rem;
+    background-color: gray;
+}
+.pname li{
+    margin: 0px 1.875rem;
+    padding: 0px 0.94rem;
+    width: 16.875rem; 
+    font-size: x-large;
+}
+.viewall{
+    /* float: right; */
+    position: relative;
+    left: 68.75rem;
+}
+.pname li button{
+    float: right;
+    font-size: large;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.sidebar{
+    position: absolute;
+    top: 7.2rem;
+    width: 13rem;
+    height: 100%;
+    display: none;
+}
+.sidebar li{
+    font-size: large;
+    background-color: black;
+    color: whitesmoke;
+    font-size: large;
+    height: 2rem;
+    border: 1px solid white;
+    padding: 5px 10px;
+}
+body.icon .sidebar{
+    left: -500px;
+}

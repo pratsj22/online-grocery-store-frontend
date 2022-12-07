@@ -1,0 +1,255 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: whitesmoke;
+    font-size: larger;
+    box-shadow: 0px 0px 40px black;
+    position: sticky;
+    top: 5px;
+    z-index: 100;
+}
+
+.heading {
+    flex-basis: 33%;
+    padding: 20px 25px;
+    font-family: Courgette;
+    font-size: 30px;
+}
+
+.head-cart {
+    position: absolute;
+    right: 50px;
+    top: 25px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav li {
+    padding: 10px 19px 0px 19px;
+    color: black;
+}
+
+.nav li a {
+    color: black;
+}
+
+.nav li:hover {
+    font-size: larger;
+}
+
+.swiper {
+    margin: 10px;
+    width: 100%;
+    height: 350px;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px black;
+}
+
+.swiper .swiper-pagination-bullet-active {
+    background-color: whitesmoke;
+}
+
+.pheading {
+    text-align: center;
+    font-size: x-large;
+    padding: 10px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.underline {
+    display: flex;
+    border: 2px solid black;
+    background-color: black;
+    width: 5%;
+    border-radius: 10px;
+    position: absolute;
+    left: 44.68rem;
+    margin: 5px;
+}
+
+.row {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.prow {
+    flex-basis: 23%;
+    box-shadow: 0px 0px 10px black;
+    margin: 10px;
+    position: relative;
+}
+
+.prow img {
+    width: 100%;
+    height: 300px;
+    padding: 15px;
+}
+
+.prow h4,
+p,
+div {
+    padding-left: 5px;
+}
+
+footer {
+    background: gray;
+    color: whitesmoke;
+    font-size: larger;
+    padding: 50px 0 20px;
+    margin-top: 20px;
+}
+
+.footer-1,
+.footer-2,
+.footer-3 {
+    flex: 1;
+    margin: 0px 10px;
+}
+
+footer ul {
+    margin-left: -40px;
+    cursor: pointer;
+}
+
+footer img {
+    margin: -30px 0 0 -15px;
+    height: 40px;
+}
+
+.headcat {
+    font-size: xx-large;
+    margin: 40px 30px;
+    background: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.pcat {
+    flex-basis: 31%;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 0px 15px black;
+}
+
+.pcat img {
+    width: 100%;
+    height: 300px;
+}
+
+.cart-logo ,.add-cart,.fa-shopping-bag{
+    font-size: 25px;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.cart {
+    position: fixed;
+    z-index: 101;
+    top: 85px;
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 330px;
+    box-shadow: 0px 0px 10px black;
+    right: -100%;
+    padding: 10px;
+    transition: 0.3s;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.cart.active {
+    right: 9px;
+}
+.cart-title{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+.cart-box img{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    padding: 10px;
+}
+.cart-box{
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.detail-box{
+    display: grid;
+    row-gap: 0.5rem;
+}
+.cart-product-title{
+    font-size: 1rem;
+}
+.cart-price{
+    font-weight: 600;
+}
+.cart-quantity{
+    border: 1px solid black;
+    width: 2.4rem;
+    font-size: 1rem;
+    text-align: center;
+}
+.cart-remove{
+    font-size: 24px;
+    cursor: pointer;
+}
+.total{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    border-top: 1px solid black;
+}
+.total-title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.total-price{
+    margin-left: 0.5rem;
+}
+.btn-buy{
+    display: flex;
+    margin: 1.5rem auto 0 auto;
+    padding: 12px 20px;
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+#close-cart{
+    position: absolute;
+    top: 1rem;
+    right: 0.8rem;
+    font-size: 2rem;
+    cursor: pointer;
+}

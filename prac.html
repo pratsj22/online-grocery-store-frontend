@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style></style>
+</head>
+<body>
+    <div id="container">
+        <h1>
+            this my heading
+        </h1>
+        <p id="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, provident voluptatum vel rerum omnis ut! Beatae quasi enim iure temporibus debitis maiores earum. Aut omnis assumenda aperiam, esse facilis itaque ipsa nostrum adipisci molestiae magnam cupiditate error beatae ullam incidunt? Fugit at quos commodi temporibus illum reiciendis necessitatibus voluptates exercitationem, corporis modi ipsam reprehenderit dolores error, beatae nulla iste culpa minima sunt officia? Sed laudantium repudiandae provident laborum distinctio neque officiis exercitationem nostrum eveniet suscipit quos dolorem placeat iure cupiditate cum, magnam nesciunt aperiam illum officia perspiciatis molestias. Omnis, nam ratione accusantium impedit excepturi vitae eveniet velit tempora nostrum doloremque minus, dignissimos dolorem odit aliquam eaque ullam! Inventore dolor itaque, amet sed laboriosam vel expedita voluptatem cupiditate nostrum eum consectetur possimus asperiores deleniti iusto temporibus quia porro magni quaerat? Odio magni facere similique quos facilis animi at atque a, harum cumque maiores perferendis dolorem sunt aut eligendi perspiciatis eum exercitationem officiis? Fugit qui fugiat maxime. Eveniet itaque esse ab quis nesciunt quae fugit dolorem qui molestiae aliquid totam animi minus illum dolorum, magni inventore, alias impedit doloremque odio beatae. Fugit blanditiis non soluta eveniet optio molestiae, natus et cupiditate voluptas minima maxime! Deserunt consectetur dolore temporibus sunt quis tempore minus culpa reiciendis iusto quia inventore rerum, necessitatibus facere enim aperiam, autem illum voluptatibus, mollitia quasi. Nam porro ea error, modi tempora perspiciatis sapiente doloribus neque quae facilis corrupti illo quis! Porro odit nemo fuga voluptate repellat impedit dolorem rem expedita?
+        </p>
+    </div>
+    <button id="btn1" onclick="document.body.style.backgroundColor= 'red';">
+        red
+    </button>
+    </div>
+    <button id="btn2" onclick="document.body.style.backgroundColor= 'green'">
+        green
+    </button>
+    </div>
+    <button id="btn3" onclick="document.body.style.backgroundColor= 'blue'">
+         blue
+    </button>
+    <button id="btn" onclick="hide()">
+        show/hide
+    </button>
+    <script>
+        function hide(){
+            let para = document.getElementById('para');
+            if(para.style.display!='none')
+            para.style.display = "none";
+            else
+            para.style.display= 'block';
+        }
+    </script>
+</body>
+</html>
